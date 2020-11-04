@@ -29,3 +29,5 @@ for file in files:
         file_name = file.split('.')[0]
         print(file_name)
         img.save(f'{png_folder}/{file_name}.{file_ext}', 'png')
+
+print('well done!')
